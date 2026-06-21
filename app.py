@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-3-5-sonnet-latest"
 
 LENGTH_MAP = {
     "Short (2-3 sentences)": "in 2-3 sentences",
