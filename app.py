@@ -10,7 +10,7 @@ import streamlit as st
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 MODEL = "claude-3-5-sonnet-latest"
 
